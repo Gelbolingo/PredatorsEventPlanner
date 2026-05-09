@@ -1,0 +1,47 @@
+# School-Schedule-System
+
+Flask-based school scheduling system with user, admin, and superadmin roles.
+
+## Prerequisites
+
+- Python 3.10+ (you are using Python 3.14, which is fine)
+- PowerShell
+
+## How to Run (Windows / PowerShell)
+
+1. Open PowerShell in the project root:
+
+```powershell
+cd "D:\3-6\IntegrativePrograming\Predator's Event Planner\School-Schedule-System-main"
+```
+
+2. Create and activate a virtual environment:
+
+```powershell
+C:/Python314/python.exe -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+3. Install dependencies:
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+4. Run the app:
+
+```powershell
+python ".\Predator System\app.py"
+```
+
+5. Open in browser:
+
+- [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+## Default Superadmin
+
+The app auto-creates/restores this account on startup:
+
+- Username: `superadmin`
+- Password: `1234`
